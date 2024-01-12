@@ -29,6 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.cookieg.cookiegrpstuff.init.CookiegRpStuffModTabs;
+import net.cookieg.cookiegrpstuff.init.CookiegRpStuffModItems;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,6 +49,10 @@ public class CookiegRpStuffMod {
 	public CookiegRpStuffMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		CookiegRpStuffModItems.REGISTRY.register(bus);
+
+		CookiegRpStuffModTabs.REGISTRY.register(bus);
 
 	}
 

@@ -1,0 +1,7 @@
+{
+  "parent": "cookieg_rp_stuff:custom/bomb-vest-activator",
+  "textures": {
+    "0": "cookieg_rp_stuff:block/nokia3310",
+    "particle": "cookieg_rp_stuff:item/bulletproof_vest"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": "false",
+  "values": [
+    "minecraft:air",
+    "cookieg_rp_stuff:bomb_vest_a",
+    "cookieg_rp_stuff:bullet_proof_vest_light"
+  ]
+}

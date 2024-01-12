@@ -1,0 +1,120 @@
+{
+  "mod_elements": [
+    {
+      "name": "BulletProofVestLight",
+      "type": "curiosbauble",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet_proof_vest_light",
+      "metadata": {
+        "files": [
+          "src/main/java/net/cookieg/cookiegrpstuff/client/renderer/BulletProofVestLightRenderer.java",
+          "src/main/java/net/cookieg/cookiegrpstuff/item/BulletProofVestLightItem.java",
+          "src/main/resources/assets/cookieg_rp_stuff/models/item/bullet_proof_vest_light.json"
+        ]
+      },
+      "path": "~/items/curios/Bulletproof-Vest-Light"
+    },
+    {
+      "name": "BombVestA",
+      "type": "curiosbauble",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_vest_a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/cookieg/cookiegrpstuff/item/BombVestAItem.java",
+          "src/main/java/net/cookieg/cookiegrpstuff/client/renderer/BombVestARenderer.java",
+          "src/main/resources/assets/cookieg_rp_stuff/models/item/bomb_vest_a.json"
+        ]
+      },
+      "path": "~/items/curios/BombVest-A"
+    },
+    {
+      "name": "BombVerstActivator",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_verst_activator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cookieg_rp_stuff/models/item/bomb_verst_activator.json",
+          "src/main/java/net/cookieg/cookiegrpstuff/item/BombVerstActivatorItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "BombVestKey",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bomb_vest_key",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/cookieg_rp_stuff/models/item/bomb_vest_key.json",
+          "src/main/java/net/cookieg/cookiegrpstuff/item/BombVestKeyItem.java"
+        ]
+      },
+      "path": "~/items"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.cookieg_rp_stuff.bullet_proof_vest_light": "Bullet Proof Vest Light",
+      "item.cookieg_rp_stuff.bomb_vest_key": "Bomb Vest Key",
+      "item.cookieg_rp_stuff.bomb_verst_activator": "Bomb Verst Activator",
+      "item.cookieg_rp_stuff.bomb_vest_a": "Bomb Vest A"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "items",
+        "children": [
+          {
+            "name": "curios",
+            "children": [
+              {
+                "name": "Bulletproof-Vest-Light",
+                "children": []
+              },
+              {
+                "name": "BombVest-A",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "cookieg_rp_stuff",
+    "modName": "CookieG\u0027s RP Stuff",
+    "version": "0.1.0",
+    "author": "mcord, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created by CookieG Using McCreator (https://mcreator.net/about)",
+    "modElementsPackage": "net.cookieg.cookiegrpstuff",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "nokia3310"
+      },
+      "name": "default"
+    }
+  }
+}

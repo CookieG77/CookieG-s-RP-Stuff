@@ -1,0 +1,7 @@
+{
+  "parent": "cookieg_rp_stuff:custom/bombvest-key",
+  "textures": {
+    "0": "cookieg_rp_stuff:block/bombvest-key",
+    "particle": "cookieg_rp_stuff:item/bulletproof_vest"
+  }
+}
