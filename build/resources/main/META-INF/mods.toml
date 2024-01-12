@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Creative Commons Attribution-NonCommercial-ShareAlike 4.0"
+
+[[mods]]
+modId="cookieg_rp_stuff"
+version="0.1.0"
+displayName="CookieG's RP Stuff"
+displayURL="https://mcreator.net"
+credits="Created by CookieG Using McCreator (https://mcreator.net/about)"
+authors="mcord, MCreator"
+
+[[dependencies.cookieg_rp_stuff]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.cookieg_rp_stuff]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

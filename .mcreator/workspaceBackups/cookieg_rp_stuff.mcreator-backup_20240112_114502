@@ -1,0 +1,30 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "cookieg_rp_stuff",
+    "modName": "CookieG\u0027s RP Stuff",
+    "version": "0.1.0",
+    "author": "mcord, MCreator",
+    "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created by CookieG Using McCreator (https://mcreator.net/about)",
+    "modElementsPackage": "net.cookieg.cookiegrpstuff",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
