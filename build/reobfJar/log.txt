@@ -135,7 +135,18 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\mcord\Desktop\ImportantStuff\CookieG-s-RP-Stuff\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
+Conflicting propagated mapping for net/cookieg/cookiegrpstuff/client/model/Modelbomb_vest_A/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/cookieg/cookiegrpstuff/client/model/Modelbomb_vest_A/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/cookieg/cookiegrpstuff/client/model/Modelbullet_proof_vest_light_Converted/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/cookieg/cookiegrpstuff/client/model/Modelbullet_proof_vest_light_Converted/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/cookieg/cookiegrpstuff/item/BombVestActivatorItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/cookieg/cookiegrpstuff/item/BombVestActivatorItem/hasCraftingRemainingItem()Z from net/minecraft/world/item/Item/hasCraftingRemainingItem()Z: hasCraftingRemainingItem -> m_41470_
+Conflicting propagated mapping for net/cookieg/cookiegrpstuff/item/BombVestKeyItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/cookieg/cookiegrpstuff/item/BombVestActivatorItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/cookieg/cookiegrpstuff/item/BombVestAItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/cookieg/cookiegrpstuff/item/BulletProofVestLightItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/cookieg/cookiegrpstuff/procedures/BombVerstActivatorEvenementAuClicDroitDansLairProcedure$1/getLocalizedDeathMessage(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/network/chat/Component; from net/minecraft/world/damagesource/DamageSource/getLocalizedDeathMessage(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/network/chat/Component;: getLocalizedDeathMessage -> m_6157_
+Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Adding extras
 Sorting
 Writing Output: C:\Users\mcord\Desktop\ImportantStuff\CookieG-s-RP-Stuff\build\reobfJar\output.jar
@@ -147,10 +158,21 @@ Writing Output: C:\Users\mcord\Desktop\ImportantStuff\CookieG-s-RP-Stuff\build\r
   assets/cookieg_rp_stuff/lang/
   assets/cookieg_rp_stuff/lang/en_us.json
   assets/cookieg_rp_stuff/models/
+  assets/cookieg_rp_stuff/models/custom/
+  assets/cookieg_rp_stuff/models/custom/bomb-vest-activator.json
+  assets/cookieg_rp_stuff/models/custom/bombvest-key.json
   assets/cookieg_rp_stuff/models/item/
   assets/cookieg_rp_stuff/models/item/bomb_vest_a.json
+  assets/cookieg_rp_stuff/models/item/bomb_vest_activator.json
+  assets/cookieg_rp_stuff/models/item/bomb_vest_key.json
   assets/cookieg_rp_stuff/models/item/bullet_proof_vest_light.json
+  assets/cookieg_rp_stuff/sounds.json
+  assets/cookieg_rp_stuff/sounds/
+  assets/cookieg_rp_stuff/sounds/bombringtone.ogg
   assets/cookieg_rp_stuff/textures/
+  assets/cookieg_rp_stuff/textures/block/
+  assets/cookieg_rp_stuff/textures/block/bombvest-key.png
+  assets/cookieg_rp_stuff/textures/block/nokia3310.png
   assets/cookieg_rp_stuff/textures/entities/
   assets/cookieg_rp_stuff/textures/entities/bomb_vest_a.png
   assets/cookieg_rp_stuff/textures/entities/bulletproof_vest.png
@@ -188,8 +210,15 @@ Writing Output: C:\Users\mcord\Desktop\ImportantStuff\CookieG-s-RP-Stuff\build\r
   net/cookieg/cookiegrpstuff/init/CookiegRpStuffModItems.class
   net/cookieg/cookiegrpstuff/init/CookiegRpStuffModLayerDefinitions.class
   net/cookieg/cookiegrpstuff/init/CookiegRpStuffModModels.class
+  net/cookieg/cookiegrpstuff/init/CookiegRpStuffModSounds.class
   net/cookieg/cookiegrpstuff/init/CookiegRpStuffModTabs.class
   net/cookieg/cookiegrpstuff/item/
   net/cookieg/cookiegrpstuff/item/BombVestAItem.class
+  net/cookieg/cookiegrpstuff/item/BombVestActivatorItem.class
+  net/cookieg/cookiegrpstuff/item/BombVestKeyItem.class
   net/cookieg/cookiegrpstuff/item/BulletProofVestLightItem.class
+  net/cookieg/cookiegrpstuff/procedures/
+  net/cookieg/cookiegrpstuff/procedures/BombVerstActivatorEvenementAuClicDroitDansLairProcedure$1.class
+  net/cookieg/cookiegrpstuff/procedures/BombVerstActivatorEvenementAuClicDroitDansLairProcedure.class
+  net/cookieg/cookiegrpstuff/procedures/BombVestEvenementClicDroitSurJoueurProcedure.class
   pack.mcmeta

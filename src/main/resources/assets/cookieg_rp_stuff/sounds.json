@@ -1,0 +1,11 @@
+{
+  "nokiasound": {
+    "subtitle": "subtitles.nokiasound",
+    "sounds": [
+      {
+        "name": "cookieg_rp_stuff:bombringtone",
+        "stream": false
+      }
+    ]
+  }
+}

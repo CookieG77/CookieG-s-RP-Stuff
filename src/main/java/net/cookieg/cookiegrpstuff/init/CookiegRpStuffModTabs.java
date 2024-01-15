@@ -21,8 +21,8 @@ public class CookiegRpStuffModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.cookieg_rp_stuff.mod_creative_tab")).icon(() -> new ItemStack(Items.TOTEM_OF_UNDYING)).displayItems((parameters, tabData) -> {
 				tabData.accept(CookiegRpStuffModItems.BOMB_VEST_A.get());
 				tabData.accept(CookiegRpStuffModItems.BULLET_PROOF_VEST_LIGHT.get());
-				tabData.accept(CookiegRpStuffModItems.BOMB_VERST_ACTIVATOR.get());
 				tabData.accept(CookiegRpStuffModItems.BOMB_VEST_KEY.get());
+				tabData.accept(CookiegRpStuffModItems.BOMB_VEST_ACTIVATOR.get());
 			})
 
 					.build());

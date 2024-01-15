@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.cookieg.cookiegrpstuff.init.CookiegRpStuffModTabs;
+import net.cookieg.cookiegrpstuff.init.CookiegRpStuffModSounds;
 import net.cookieg.cookiegrpstuff.init.CookiegRpStuffModItems;
 
 import java.util.function.Supplier;
@@ -49,6 +50,7 @@ public class CookiegRpStuffMod {
 	public CookiegRpStuffMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		CookiegRpStuffModSounds.REGISTRY.register(bus);
 
 		CookiegRpStuffModItems.REGISTRY.register(bus);
 

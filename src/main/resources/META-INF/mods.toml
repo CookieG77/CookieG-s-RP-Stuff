@@ -18,6 +18,12 @@ authors="mcord, MCreator"
     side="BOTH"
 
 
+[[dependencies.cookieg_rp_stuff]]
+    modId="curios"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 [[dependencies.cookieg_rp_stuff]]
     modId="curios_api"
